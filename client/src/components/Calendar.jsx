@@ -79,7 +79,7 @@ function CalendarFull() {
 
       {selectedEvent && showPopup && (
         <div className="fixed w-72 md:w-fit top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-lg shadow-lg z-50">
-          <div className="w-full justify-end flex ">
+          <div className="w-full  justify-end flex ">
             <div className="cursor-pointer flex" onClick={closePopup}>
               <CloseIcon />
             </div></div>
